@@ -1,13 +1,32 @@
+
 # 📊 JobStreet Malaysia Job Listings Analysis
 
-Welcome to my data analytics project! This repository showcases a real-world end-to-end data project involving **web-scraped job listings from JobStreet Malaysia**. The focus is on using **Hive** for big data querying and **Python (Google Colab)** for data cleaning, analysis, and visualization.
+![Alt text]([https://example.com/path/to/image.png](https://ap-southeast-2-seek-apac.graphassets.com/AEzBCRO50TYyqbV6XzRDQz/uto9Hl2kQGi3kRrb9O07))
+
+This repository is part of Data Management courses project showcasing a real-world data project that involvec **web-scraped job listings from JobStreet Malaysia**. The focus is on using **Hive** for big data querying and **Python (Google Colab)** for data cleaning, analysis, and visualization.
+
+** Objective **:  
+To analyze the Malaysian job market by identifying hiring trends across job categories (e.g., IT, Accounting, Logistics, Engineering, Construction), job roles, and determine the **top hiring companies contributed in Jobstreet job listings** and the **most common job by locations**.
 
 ---
+## 📌 Data Overview
 
-## 📌 Project Overview
+The dataset used in this project contains job listings sourced from [click here](www.google.com](https://www.kaggle.com/datasets/azraimohamad/jobstreet-all-job-dataset/data). 
+This dataset compiles a huge range of job listings from Jobstreet, offering a comprehensive view of the current employment landscape from various industries in Malaysia specifically focuses on JobStreet job postings in Malaysia. It includes detailed information such as:
 
-**Objective**:  
-To analyze the Malaysian job market by identifying hiring trends across job categories (e.g., IT, Accounting, Logistics, Engineering, Construction), job roles, and determine the **top hiring companies contributed in Jobstreet job listings** and the **most common job by locations** 
+| Column Name   | Description                                                           |
+| ------------- | --------------------------------------------------------------------- |
+| `job_id`      | Unique identifier for each job listing                                |
+| `job_title`   | The title of the job position (e.g., Software Engineer, Accountant)   |
+| `company`     | Name of the company offering the job                                  |
+| `location`    | City or region in Malaysia where the job is located                   |
+| `category`    | Broad job category (e.g. Accounting, Engineering, etc.)               |
+| `subcategory` | More specific area within the category (e.g., Mechanical Engineering, Software Developer) |
+| `role`        | Job role or function (e.g., account-executive.)                       |
+| `type`        | Employment type (e.g., Full-Time, Part-Time etc.)                     |
+| `salary`      | Salary information if provided (e.g., RM3,000 - RM5,000)              |
+| `listingdate` | Date the job was posted/listed on JobStreet                           |
+
 
 ---
 
@@ -30,12 +49,12 @@ To analyze the Malaysian job market by identifying hiring trends across job cate
 - Performing **data cleaning** and preprocessing in Python
 - Creating **visualizations** to analyse job markets. 
 - Showcasing findings through a structured, reproducible notebook
-- Publishing a **professional GitHub portfolio project**
 
 ---
 
 ## 📁 Project Structure
 
+```
 jobstreet-analysis/
 ├── notebooks/
 │ └── job_analysis.ipynb # Main notebook with Hive & Python analysis
@@ -47,13 +66,15 @@ jobstreet-analysis/
 ├── README.md # This documentation file
 ├── requirements.txt # Required Python packages
 
----
+---```
 
-## 🔍 Example Analysis Questions
+## 🔍 Key Insights
 
-- What are the top 10 locations for IT jobs in Malaysia?
+- What is the most category of jobs listed in Jobstreet?
+- Which job category offer part-time role?
+- What is the top sub-category of job listed?
+- What are the top hiring companies actively posted jobs on Jobstreet?
 - How do job location distributions differ across job categories?
-- Which regions are hubs for construction or logistics jobs?
-
+- Which locations are hubs for construction or logistics jobs?
 
 
