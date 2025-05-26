@@ -10,7 +10,7 @@ To analyze the Malaysian job market by identifying hiring trends across job cate
 ## 📌 Data Overview
 
 The dataset used in this project contains job listings sourced from [Kaggle](https://www.kaggle.com/datasets/azraimohamad/jobstreet-all-job-dataset/data). 
-This dataset compiles a huge range of job listings from Jobstreet, offering a comprehensive view of the current employment landscape from various industries in Malaysia specifically focuses on JobStreet job postings in Malaysia. It includes detailed information such as:
+This dataset compiles a huge range of job listings from Jobstreet, offering a comprehensive view of the current employment landscape from various industries in Malaysia specifically. It includes detailed information such as:
 
 | Column Name   | Description                                                           |
 | ------------- | --------------------------------------------------------------------- |
