@@ -1,17 +1,15 @@
 
 # 📊 JobStreet Malaysia Job Listings Analysis
 
-![Alt text]([https://example.com/path/to/image.png](https://ap-southeast-2-seek-apac.graphassets.com/AEzBCRO50TYyqbV6XzRDQz/uto9Hl2kQGi3kRrb9O07))
+This repository is part of Data Management courses project showcasing a real-world data project that involves **web-scraped job listings from JobStreet Malaysia**. The focus is on using **Hive** for big data querying and **Python (Google Colab)** for data cleaning, analysis, and visualization.
 
-This repository is part of Data Management courses project showcasing a real-world data project that involvec **web-scraped job listings from JobStreet Malaysia**. The focus is on using **Hive** for big data querying and **Python (Google Colab)** for data cleaning, analysis, and visualization.
-
-** Objective **:  
+**Objective**:  
 To analyze the Malaysian job market by identifying hiring trends across job categories (e.g., IT, Accounting, Logistics, Engineering, Construction), job roles, and determine the **top hiring companies contributed in Jobstreet job listings** and the **most common job by locations**.
 
 ---
 ## 📌 Data Overview
 
-The dataset used in this project contains job listings sourced from [click here](www.google.com](https://www.kaggle.com/datasets/azraimohamad/jobstreet-all-job-dataset/data). 
+The dataset used in this project contains job listings sourced from [Kaggle](https://www.kaggle.com/datasets/azraimohamad/jobstreet-all-job-dataset/data). 
 This dataset compiles a huge range of job listings from Jobstreet, offering a comprehensive view of the current employment landscape from various industries in Malaysia specifically focuses on JobStreet job postings in Malaysia. It includes detailed information such as:
 
 | Column Name   | Description                                                           |
@@ -65,9 +63,9 @@ jobstreet-analysis/
 │ └── processed/ # Cleaned data ready for plotting
 ├── README.md # This documentation file
 ├── requirements.txt # Required Python packages
+```
 
----```
-
+---
 ## 🔍 Key Insights
 
 - What is the most category of jobs listed in Jobstreet?
