@@ -1,0 +1,10 @@
+Requirements:
+
+The raw data is too big to be uploaded into the github. 
+
+Here is the link of data source: 
+
+https://www.kaggle.com/datasets/azraimohamad/jobstreet-all-job-dataset/data
+
+
+The analysis requires reader to upload 'jobstreet.csv' data into apache hive, under /default file path to run the query inside the notebooks
