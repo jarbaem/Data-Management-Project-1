@@ -8,3 +8,8 @@ https://www.kaggle.com/datasets/azraimohamad/jobstreet-all-job-dataset/data
 
 
 The analysis requires reader to upload 'jobstreet.csv' data into apache hive, under /default file path to run the query inside the notebooks
+
+In case you are having trouble to run the jupyter notebook, you can read the analysis via .html file.
+
+
+Thank you ! please leave a feedback :)
