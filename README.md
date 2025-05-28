@@ -49,23 +49,6 @@ This dataset compiles a huge range of job listings from Jobstreet, offering a co
 - Showcasing findings through a structured, reproducible notebook
 
 ---
-
-## 📁 Project Structure
-
-```
-jobstreet-analysis/
-├── notebooks/
-│ └── job_analysis.ipynb # Main notebook with Hive & Python analysis
-├── hive_queries/
-│ └── location_summary.hql # Hive SQL queries used
-├── data/
-│ ├── raw/ # Exported Hive query results
-│ └── processed/ # Cleaned data ready for plotting
-├── README.md # This documentation file
-├── requirements.txt # Required Python packages
-```
-
----
 ## 🔍 Key Insights
 
 - What is the most category of jobs listed in Jobstreet?
@@ -73,6 +56,6 @@ jobstreet-analysis/
 - What is the top sub-category of job listed?
 - What are the top hiring companies actively posted jobs on Jobstreet?
 - How do job location distributions differ across job categories?
-- Which locations are hubs for construction or logistics jobs?
+- Which locations are hubs for jobs across categories?
 
 
